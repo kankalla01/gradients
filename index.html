@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task: Outline, Shadow, Gradient & Units</title>
+    <style>
+        
+    body {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+
+        .container1 {
+            background: linear-gradient(white,blue,white,blue);
+            width: 80vw; 
+            max-width: 600px;
+            padding: 2em;
+            background-color: white;
+            border:1px solid black;
+            box-shadow: 10px 10px 5px grey;
+            outline: 2px solid red; 
+            outline-style: double;
+            outline-offset: 20px; 
+            border-radius: 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin:100px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #ff7e5f;
+            margin-bottom: 1rem;
+            text-shadow: 15px 10px 5px black;
+        }
+
+        .details {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .container2{
+            background: radial-gradient( red, green, brown, black);
+            display: flex;
+            justify-content: center;
+            border-radius: 40%;
+            border:1px solid black;
+            width:80vw;
+            height: 60vh;
+            text-align: center;
+            align-items: center;
+            margin:100px;
+            outline-style: dotted;
+        }
+
+        .container3{
+            background: conic-gradient(orange,red,blue);
+            display: flex;
+            justify-content: center;
+            border-radius: 40%;
+            border:1px solid black;
+            width:90vw;
+            height: 50vh;
+            text-align: center;
+            align-items: center;
+            outline-style: dashed;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container1">
+        <h1>Instagram</h1>
+        <p class="text">Outline, Shadow, Gradient & Units</p>
+    </div>
+
+    <div class="container2">
+         <h1>radial gradient</h1>
+    </div>
+
+    <div class="container3">
+        <h1>conic gradient</h1>
+   </div>
+
+</body>
+</html>
